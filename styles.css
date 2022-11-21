@@ -1,0 +1,172 @@
+.header, .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.header
+{
+    padding-bottom: 100px;
+}
+
+
+.content-top {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-middle {
+    background-color: #e5e7eb;
+}
+
+.content-bottom {
+    background-color: white;
+   
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 250px;
+    background-color: black;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+  
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+ul {
+    list-style-type: none;
+    display:flex;
+    gap: 8px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title-right {
+    background-color: dimgray;
+    padding: 100px 200px;
+}
+
+.title-left {
+ 
+    padding-right: 300px;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 0.5em;
+    border-color: white;
+    font-size: px;
+    padding: 8px 24px;
+    color: white;
+    font-weight:bold;
+}
+
+.content {
+display: flex;
+flex-direction: column;
+}
+
+
+#content-top-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.box {
+    border-color: #3882f6;
+    border-style:groove;
+
+    height: 180px;
+    width: 180px  ;   
+    border-radius:.6em;
+}
+
+#boxes {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 50px;
+
+}
+
+.box-caption {
+    text-align: center;
+}
+
+.content-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+#source {
+    font-weight: bold;
+    text-align: right;
+    margin-right: 300px;
+}
+
+#blue-box {
+
+    display: flex;
+    justify-content: space-around;
+    align-items:baseline; 
+    background-color: #3882f6;
+    border-radius: .6em;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top:100px;
+    margin-bottom:100px;
+    padding-top:25px;
+    padding-bottom:25px;
+    
+    color: white;
+
+}
+
+#blue-box  #p1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#blue-box #p2 {
+margin-top: -10px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom:25px;
+}
